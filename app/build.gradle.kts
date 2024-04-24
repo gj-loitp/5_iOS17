@@ -36,9 +36,8 @@ android {
         applicationId = "com.cloudx.ios17"
         minSdk = 27
         targetSdk = 34
-
-        versionCode = versionMajor * 100_00_00 + versionMinor * 10_00 + versionPatch
-        versionName = "${versionMajor}.${versionMinor}.${versionPatch}"
+        versionCode = 20240424
+        versionName = "2024.04.24"
 
         testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
         renderscriptTargetApi = 28
@@ -46,7 +45,9 @@ android {
         setProperty("archivesBaseName", "BlissLauncher-$versionName")
     }
 
-    buildFeatures { buildConfig = true }
+    buildFeatures {
+        buildConfig = true
+    }
 
     buildTypes {
         release {
@@ -56,9 +57,9 @@ android {
         }
 
         debug {
-            if (appendDebugSuffix) {
-                applicationIdSuffix = ".debug"
-            }
+//            if (appendDebugSuffix) {
+//                applicationIdSuffix = ".debug"
+//            }
             signingConfig = signingConfigs.getByName("debug")
         }
 
