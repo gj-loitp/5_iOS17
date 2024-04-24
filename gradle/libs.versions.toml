@@ -1,5 +1,5 @@
 [versions]
-agp = "7.3.1"
+agp = "7.4.2"
 axCore = "1.2.0-alpha03"
 axAppcompat = "1.4.1"
 axTest = "1.2.0"
@@ -78,7 +78,7 @@ android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 android-test = { id = "com.android.test", version.ref = "agp" }
 benmanes-versions = "com.github.ben-manes.versions:0.25.0"
-google-services = "com.google.gms.google-services:4.3.0"
+google-services = "com.google.gms.google-services:4.3.10"
 refine = { id = "dev.rikka.tools.refine", version.ref = "refine" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
