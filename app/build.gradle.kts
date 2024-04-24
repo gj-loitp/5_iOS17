@@ -34,8 +34,8 @@ android {
 
     defaultConfig {
         applicationId = "com.cloudx.ios17"
-        minSdk = Versions.MIN_SDK
-        targetSdk = Versions.TARGET_SDK
+        minSdk = 27
+        targetSdk = 34
 
         versionCode = versionMajor * 100_00_00 + versionMinor * 10_00 + versionPatch
         versionName = "${versionMajor}.${versionMinor}.${versionPatch}"
