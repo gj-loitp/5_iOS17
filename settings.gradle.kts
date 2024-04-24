@@ -6,16 +6,17 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
-        jcenter()
+//        jcenter()
     }
 }
 
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        gradlePluginPortal()
         google()
         mavenCentral()
-        jcenter()
+//        jcenter()
         maven("https://gitlab.e.foundation/api/v4/groups/9/-/packages/maven")
         maven("https://jitpack.io")
     }
